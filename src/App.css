@@ -1,0 +1,395 @@
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Pattaya', sans-serif;
+font-family: 'Poppins', sans-serif; */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+link{
+    list-style: none;
+}
+.link{
+    list-style: none;
+}
+
+nav{
+    background: #fff !important;
+    color: #000 !important;
+}
+
+.navbar-brand{
+    font-family: 'Pattaya', sans-serif;
+    font-size: 30px !important;
+    font-weight: 400; 
+    margin-left: 100px;
+}
+
+
+.search-div{
+    display: flex;
+    border: 0.5px solid #dfe6e9;
+    align-items: center;
+    border-radius: 5px;
+    margin-left: 15px !important;
+    padding: 5px !important;
+}
+.search-div input{
+    width: 350px !important;
+    font-family: 'Montserrat', sans-serif;
+    outline: none;
+    border: none;
+    margin-left: 20px;
+    /* background : rgb(248, 246, 246) !important */
+}
+.search-div input:focus{
+    outline: none;
+    border: none;
+}
+.searchBar{
+    font-size: 16px;
+    color: #d3d0d0;
+    cursor: pointer;
+    margin-right: 20px !important;
+}
+
+.searchBarHero{
+    font-size: 4rem;
+    color: #1b1822;
+    cursor: pointer;
+   
+}
+
+.navbar-collapse{
+    font-family: 'Montserrat', sans-serif;
+    font-size : 14px;
+    font-weight: 600;
+    margin-left: 50px !important;
+}
+
+.image-div{
+    width: 100% !important;
+    max-height: 500px;
+    position: relative;
+    object-fit: cover;
+
+}
+
+.img_div{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.txt_div{
+    position:absolute;
+    top:40%;
+}
+
+.hero-text{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 39px;
+    letter-spacing: -2%;
+    color: #fff;
+
+}
+.hero-form{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+.input_div{
+    font-family: 'Montserrat', sans-serif;
+    width: 1220px;
+    height :52px;
+    border-radius: 8px;
+
+}
+.span-text{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
+  color:#d4cece;
+  margin-left: 120px !important;
+}
+
+
+/* 
+.card_container{
+
+} */
+
+.user_div{
+   display : flex;
+   justify-content:space-between;
+
+}
+.main_card{
+    display : flex;
+    justify-content: space-between;
+    flex-wrap : wrap;
+}
+.card{
+   display : flex;
+   cursor: pointer;
+   margin: 5px !important;
+   box-shadow: 0 10px 40px -10px rgb(0 64 128 / 10%);
+}
+.card .card_img{
+    width: 450px !important;
+    height: 550px !important ;
+}
+.user_div .inner_div img{
+    width : 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px !important;
+}
+
+.user_text{
+    display : flex;
+    flex-direction: column; 
+    
+}
+.card-body{
+    position: relative;
+    display :flex;
+    justify-content: space-between;
+}
+.user-img{
+
+}
+.card-title{
+    font-size : 14px;
+    font-weight: 700;
+    color: #4F4F4F;
+    line-height: 14.63px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.card-text{
+    font-size : 12px;
+    font-weight: 400;
+    color :#bebaba;
+    line-height: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.icon_div .like-icon{
+    font-size: 15px;
+    color: #c5c0c0;
+    margin-right: 15px !important;
+}
+
+.icon_div span{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    color: #c5c0c0;
+    margin-left: 15px !important;   
+}
+.likes{
+    font-size: 12px;
+    color: #8A8A8A;
+    font-weight: 500;
+    margin-left: 5px !important;
+}
+
+/* Toggle dark & light mode start */
+
+.t{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 50px;
+    height: 25px;
+    border-radius: 20px;
+    background: #f8fcfd;
+    border: 1px solid #999;  
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 999;
+    margin-right: 20px;
+
+}
+
+
+.t-icon{
+   width: 15px;
+   height: 15px;
+}
+.t-button{
+   width: 25px;
+   height: 25px;
+   border-radius: 50%;
+   position: absolute;
+   transition: all 0.3s ease;
+   background-color: #2d3436; 
+   cursor: pointer;
+}
+
+
+/* Toggle dark & light mode end */
+
+
+
+/* popup css here start*/
+
+.popupImg{
+   width: 100%;
+   max-height: 568px;    
+   object-fit: cover;
+   position: relative;
+}
+.btn-div{
+    display: flex;
+    justify-content: space-around;
+}
+.shareBtn{
+    margin-left: 5px;
+}
+.shareBtn,.infoBtn{
+    position: absolute;
+    background: transparent;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: 400;
+    border: 1px solid rgb(10, 188, 219);
+    padding: 5px 10px;
+    color: #fff;
+    border: none;
+    cursor: pointer;  
+}
+.icon-text-div{
+    font-size: 12px;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.leftBtn{
+    display: flex;
+    justify-content: space-between;
+    /* bottom: 120px; */
+    margin-right: 50px;
+    
+}
+.leftIcons{
+    font-size: 10px;
+    color: rgb(226, 222, 226);
+}
+.downloadBtn{
+    position: absolute;
+    bottom: 130px;
+    margin-left: 220px !important;
+    float: right;
+    background: rgb(23, 151, 23);
+    border-radius: 3px;
+    padding: 5px 10px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+.shareBtn{
+    margin-left: 10px !important;
+}
+.socIcons{
+    font-size: 18px !important;
+    color: #8A8A8A;
+}
+.card-text2,.card-text3{
+    font-size: 10px;
+    font-family: 'Montserrat', sans-serif
+}
+.icon-text-div{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.tag_div{
+    margin-top: 20px;
+    background: rgba(170, 167, 170, 0.067);  
+}
+.tags{
+    margin-bottom: 5px !important; 
+    display: flex;
+    border : 0.5px solid rgb(78, 78, 78);
+    color: #8A8A8A;
+    padding: 2px 5px;
+    margin: 2px;
+    font-size: 8px;
+    font-weight: 500;
+    border-radius: 3px;
+}
+.relTags{
+    font-size: 10px;
+    text-align: center;
+    font-weight: 500;
+    margin-left: 10px;
+    }
+    
+.likemaro{
+    font-size: 16px !important;
+    color: #838080; 
+    margin-left: 10px; 
+}
+.closeBtn{
+  position: absolute;
+  top: -10px;
+  left: 0px;
+  border : none;
+  background: #fff;
+  color: #000;
+  border-radius: 50%;
+  padding: 3px 4px;
+  cursor: pointer;
+}
+
+
+
+
+
+
+/* popup css here end */
+
+@media screen and (max-width: 768px) {
+   
+  .search-div{
+    width: 90%;
+    
+   }
+   .brand-text{
+       font-size: 50px;
+       text-align: center !important;
+       margin-bottom: 20px !important;
+   }
+   .searchBar{
+    width: 100%;
+    margin-right: 10px !important;
+   }
+   .hero-text{
+       text-align: center;
+       font-size: 25px;
+   }
+   .span-text{
+       display: none;
+   }
+  .hero-form{
+      display: none;
+  }
+
+}
