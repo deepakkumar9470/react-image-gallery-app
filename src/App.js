@@ -1,4 +1,4 @@
-import React, { useState ,useContext} from 'react'
+import React, { useState ,useContext,useState} from 'react'
 import './App.css';
 import Navbar from './components/Navbar'
 import ImageSearch from './components/ImageSearch';
